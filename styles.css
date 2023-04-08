@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    padding: 2rem 0;
+    padding: 0;
     background-color: black;
     list-style: none;
     text-decoration: none;
@@ -23,6 +23,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    text-decoration: none;
 }
 
 nav {
@@ -33,6 +34,8 @@ nav {
     display: flex;
     width: 100%;
     justify-content: space-between;
+    
+    
 }
 
 .cabord li {
@@ -42,10 +45,16 @@ nav {
     font-size: 19px;
     transition: .5s;
     font-family: 'Kdam Thmor Pro', sans-serif;
+    
 }
 
 .cabord li:hover {
     color: red;
+    text-decoration: none;
+}
+
+.cabord a {
+  text-decoration: none;
 }
 
 #logo {
