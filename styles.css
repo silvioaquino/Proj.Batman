@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    padding: 0;
+    padding: 2rem 0;
     background-color: black;
     list-style: none;
     text-decoration: none;
@@ -29,13 +29,13 @@ nav {
     width: 60%;
 }
 
-ul {
+.cabord ul {
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
 
-li {
+.cabord li {
     list-style: none;
     color: aliceblue;
     cursor: pointer;
@@ -44,7 +44,7 @@ li {
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
-li:hover {
+.cabord li:hover {
     color: red;
 }
 
